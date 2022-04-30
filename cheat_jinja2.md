@@ -1,8 +1,4 @@
----
-title: jinja
-category: python
-layout: 2017/sheet
----
+[Official Jinja2 Documentation for the template engine](https://jinja.palletsprojects.com/en/3.0.x/templates/)
 
 {% raw %}
 
