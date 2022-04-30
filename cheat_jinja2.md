@@ -55,6 +55,18 @@
 <your html and more jijma templating goes here and is repeated for each article (.md file) that exists in your content folder. This is for building your summaries of your blog articles on the blog index page>
 {% endfor %}
 ```
+### If Else logic nested in for loop
+
+```
+{% for thing in things %}
+    {% if some_condition %}
+     Do something only for this condition
+    {% else %}
+        Do this instead
+    {% endif %}
+    {% endfor %}
+       
+```
 
 ### Basic usage
 
